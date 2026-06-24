@@ -1,5 +1,5 @@
 @import "tailwindcss";
-@import "tw-animate-css";
+/* @import "tw-animate-css"; */
 @import "shadcn/tailwind.css";
 
 @custom-variant dark (&:is(.dark *));
@@ -46,6 +46,8 @@
   --radius-2xl: calc(var(--radius) * 1.8);
   --radius-3xl: calc(var(--radius) * 2.2);
   --radius-4xl: calc(var(--radius) * 2.6);
+  --color-logo-first: #111e2e;
+  --color-logo-second: #dc2626;
 }
 
 :root {
