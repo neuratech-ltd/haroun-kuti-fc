@@ -82,7 +82,6 @@ const programs = [
 export default function ProgramSection() {
   return (
     <section className="py-14 px-6 max-w-7xl mx-auto">
-      {/* ── Section header ── */}
       <div className="text-center mb-12">
         <div className="inline-flex items-center gap-2 mb-3">
           <span className="block w-7 h-0.5 bg-green-400 rounded" />
