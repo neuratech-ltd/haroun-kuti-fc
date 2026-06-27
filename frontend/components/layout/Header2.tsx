@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "@/assets/logo/logo.jpg";
+import logo from "@/assets/logo/HKM.png";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,31 +17,12 @@ export default function Navbar() {
   ];
 
   return (
-    <header className="relative w-full z-50 sticky top-0 ">
-      <nav className="relative w-full bg-logo-first/30 backdrop-blur-md border-b border-white/10 px-6 py-4 md:px-12 flex items-center justify-between min-h-[90px] ">
+    <header className="fixed top-0 left-0 w-full z-50">
+      <nav className="relative w-full bg-logo-black/70 backdrop-blur-md border-b border-white/10 px-6 py-4 md:px-12 flex items-center justify-between min-h-[90px]">
         <div className="flex items-center gap-4">
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="relative w-12 h-14 flex items-center justify-center  ">
-              <Image
-                src={logo.src}
-                alt="Dhaka Athletic Academy"
-                width={48}
-                height={56}
-                className="object-contain"
-                onError={(e) => {
-                  e.currentTarget.src =
-                    "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2'><path d='M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z'/></svg>";
-                }}
-              />
-            </div>
-
-            <div className="flex flex-col text-left">
-              <span className="text-white font-bold leading-tight tracking-wider text-sm md:text-base uppercase font-sans">
-                Dhaka
-              </span>
-              <span className="text-white font-medium leading-tight text-xs md:text-sm tracking-wide opacity-90">
-                Athletic Academy
-              </span>
+            <div className="relative w-50 h-14 flex items-center justify-center">
+              <Image width={110} height={50} src={logo.src} alt="Dhaka Athletic Academy" className="object-contain " />
             </div>
           </Link>
         </div>
