@@ -1,13 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import {
-  UserPlus,
-  Calendar,
-  School,
-  Trophy,
-  MapPin,
-  Footprints,
-} from "lucide-react";
+import { UserPlus, Calendar } from "lucide-react";
+import heroImage from "@/assets/images/fancy-crave-qowyMze7jqg-unsplash.jpg";
+// app/page.tsx or your Hero component
 
 // const StatItem = ({ number, label }: { number: string; label: string }) => (
 //   <div className="text-center">
@@ -20,101 +15,20 @@ import {
 
 export default function HeroSection() {
   return (
-    <section className="relative bg-green-950 flex items-center overflow-hidden h-100 md:h-125">
-      <svg
-        className="absolute inset-0 w-full h-full opacity-[0.15] pointer-events-none"
-        viewBox="0 0 700 400"
-        xmlns="http://www.w3.org/2000/svg"
-        aria-hidden="true"
-        preserveAspectRatio="xMidYMid slice"
-      >
-        <rect
-          x="30"
-          y="30"
-          width="640"
-          height="340"
-          rx="8"
-          fill="none"
-          stroke="white"
-          strokeWidth="2"
-        />
-        <line
-          x1="350"
-          y1="30"
-          x2="350"
-          y2="370"
-          stroke="white"
-          strokeWidth="2"
-        />
-        <circle
-          cx="350"
-          cy="200"
-          r="60"
-          fill="none"
-          stroke="white"
-          strokeWidth="2"
-        />
-        <circle cx="350" cy="200" r="4" fill="white" />
-        <rect
-          x="30"
-          y="130"
-          width="80"
-          height="140"
-          fill="none"
-          stroke="white"
-          strokeWidth="2"
-        />
-        <rect
-          x="590"
-          y="130"
-          width="80"
-          height="140"
-          fill="none"
-          stroke="white"
-          strokeWidth="2"
-        />
-        <rect
-          x="30"
-          y="160"
-          width="30"
-          height="80"
-          fill="none"
-          stroke="white"
-          strokeWidth="2"
-        />
-        <rect
-          x="640"
-          y="160"
-          width="30"
-          height="80"
-          fill="none"
-          stroke="white"
-          strokeWidth="2"
-        />
-        <circle
-          cx="110"
-          cy="200"
-          r="30"
-          fill="none"
-          stroke="white"
-          strokeWidth="1.5"
-          strokeDasharray="5 4"
-        />
-        <circle
-          cx="590"
-          cy="200"
-          r="30"
-          fill="none"
-          stroke="white"
-          strokeWidth="1.5"
-          strokeDasharray="5 4"
-        />
-      </svg>
-
+    <section
+      className="relative bg-black flex items-center overflow-hidden h-100 md:h-125"
+      style={{
+        backgroundImage: `url('${heroImage.src}')`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
+      <div className="absolute inset-0 bg-black/60" />
       <div className="relative flex flex-col px-8 md:px-12 py-14 gap-5 text-center items-center mx-auto">
-        <h1 className="font-black text-4xl md:text-5xl text-white leading-[1.1] mb-5">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight max-w-3xl">
           Where passion meets the{" "}
-          <span className="text-blue-500">beautiful game</span>
+          <span className="text-blue-400">beautiful game</span>
         </h1>
         <p className="text-sm text-white leading-relaxed mb-8 max-w-xl">
           Harounkuti FC trains students of all ages, develops skills through

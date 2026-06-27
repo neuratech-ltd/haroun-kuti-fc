@@ -3,6 +3,8 @@ import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { Heart, School, Trophy, Users, ArrowRight } from "lucide-react";
 import AboutCarousel from "./AboutCarousel";
+import Image from "next/image";
+import goalpost from "@/assets/images/goalPost.png";
 
 const values = [
   {
@@ -60,21 +62,25 @@ const coaches = [
 
 export default function AboutSection() {
   return (
-    <section className=" overflow-hidden mt-20">
-      <div className="max-w-7xl mx-auto flex">
+    <section className="relative overflow-hidden mt-20 z-10">
+      <Image
+        src={goalpost}
+        alt="Goalpost"
+        className="max-w-[500px] max-h-[400px] absolute h-full md:right-25 -z-1 top-75 md:-top-5 rotate-2 opacity-20 "
+      />
+      <div className="max-w-7xl mx-auto  flex md:flex-nowrap flex-wrap items-center justify-center gap-6 px-6 py-12">
         <AboutCarousel />
         <div className="flex flex-wrap min-h-85">
           <div className="flex flex-col justify-center px-10 py-12">
             <div className="flex items-center gap-2 mb-3">
-              <div className="w-6 h-0.5 bg-green-400 rounded" />
-              <span className="text-[11px] font-semibold uppercase tracking-widest text-green-700">
+              <span className="text-[11px] font-semibold uppercase tracking-widest text-blue-950">
                 Our story
               </span>
             </div>
 
-            <h2 className="font-black text-3xl text-[#14380a] leading-tight mb-4">
+            <h2 className="font-black text-3xl text-black leading-tight mb-4">
               More than a club —{" "}
-              <span className="text-[#2E6B0F]">a community</span>
+              <span className="text-[#ec6b30]">a community</span>
             </h2>
 
             <p className="text-sm text-gray-500 leading-relaxed mb-6">
@@ -114,7 +120,6 @@ export default function AboutSection() {
 
       <Separator className="bg-gray-200" />
 
-      {/* Bottom — coaches strip */}
       <div className="px-10 py-9 max-w-7xl mx-auto">
         <div className="flex items-center justify-between mb-5">
           <h3 className="text-lg font-black text-[#14380a]">

@@ -11,10 +11,12 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 
+import footballNet from "@/assets/images/footballNet.jpg";
+
 const imageArray = [
   {
-    src: "https://images.unsplash.com/photo-1517466787929-bc90951d0974?w=1200&q=80",
-    alt: "Players training on the pitch",
+    src: footballNet.src,
+    alt: "Football net",
   },
   {
     src: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=1200&q=80",
@@ -38,7 +40,7 @@ const AboutCarousel = () => {
   return (
     <Carousel
       plugins={[plugin.current]}
-      className="w-full max-w-[10rem] sm:max-w-xs"
+      className="w-full"
       onMouseEnter={plugin.current.stop}
       onMouseLeave={plugin.current.reset}
     >
