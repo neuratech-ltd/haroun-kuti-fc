@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Sora } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/layout/Footer";
-import Header from "@/components/layout/Header";
+import Header2 from "@/components/layout/Header2";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -35,7 +35,7 @@ export default function RootLayout({
       className={`${sora.variable} ${sora.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <Header />
+        <Header2 />
         {children}
         <Footer />
       </body>
