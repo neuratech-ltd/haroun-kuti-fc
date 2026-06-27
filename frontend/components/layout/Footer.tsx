@@ -3,9 +3,8 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
 import footerBackground from "@/assets/images/footer.jpg";
-import whiteLogo from "@/assets/images/HKM-white.png";
+import whiteLogo from "@/assets/logo/HKM-white.png";
 import Image from "next/image";
-import { Span } from "next/dist/trace";
 
 const FooterLink = ({
   href = "#",

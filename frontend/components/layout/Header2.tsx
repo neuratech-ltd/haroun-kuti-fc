@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "@/assets/logo/HKM.png";
+import logo from "@/assets/logo/HKM-white.png";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,7 +22,13 @@ export default function Navbar() {
         <div className="flex items-center gap-4">
           <Link href="/" className="flex items-center gap-3 group">
             <div className="relative w-50 h-14 flex items-center justify-center">
-              <Image width={110} height={50} src={logo.src} alt="Dhaka Athletic Academy" className="object-contain " />
+              <Image
+                width={110}
+                height={80}
+                src={logo.src}
+                alt="Dhaka Athletic Academy"
+                className="object-contain "
+              />
             </div>
           </Link>
         </div>
