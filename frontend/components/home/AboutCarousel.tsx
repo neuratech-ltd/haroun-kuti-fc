@@ -12,22 +12,28 @@ import {
 } from "@/components/ui/carousel";
 
 import footballNet from "@/assets/images/footballNet.jpg";
+import bff from "@/assets/images/1.jpg";
+import two from "@/assets/images/2.jpg";
+import four from "@/assets/images/4.jpg";
+import five from "@/assets/images/5.jpg";
+import six from "@/assets/images/6.jpg";
+import seven from "@/assets/images/7.jpg";
 
 const imageArray = [
   {
-    src: footballNet.src,
+    src: bff.src,
+    alt: "BFF accreditation certificate",
+  },
+  {
+    src: five.src,
     alt: "Football net",
   },
   {
-    src: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=1200&q=80",
-    alt: "Match day action",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1521412644187-c49fa049e84d?w=1200&q=80",
+    src: two.src,
     alt: "Junior academy session",
   },
   {
-    src: "https://images.unsplash.com/photo-1517466787929-bc90951d0974?w=1200&q=80",
+    src: four.src,
     alt: "Team celebration",
   },
 ];

@@ -4,6 +4,7 @@ import AboutSection from "@/components/home/AboutSection";
 import ProgramSection from "@/components/home/ProgramSection";
 import AchievementsSection from "@/components/home/AchivementSection";
 import ContactSection from "@/components/home/ContactSections";
+import GallerySection from "@/components/home/GallerySection";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <ProgramSection />
+      <GallerySection />
       <AchievementsSection />
       <ContactSection />
     </div>
