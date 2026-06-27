@@ -107,16 +107,16 @@ export default function AchievementsSection() {
       <Image
         src={bKick}
         alt="Kicking a ball"
-        className="md:max-w-[500px] md:max-h-[400px] max-w-[300px] max-h-[350px] absolute h-full md:left-0 -z-1 -top-20 md:-top-30 rotate-2 opacity-20 "
+        className="md:max-w-125 md:max-h-100 max-w-75 max-h-87.5 absolute h-full md:left-0 -z-1 -top-20 md:-top-30 rotate-2 opacity-20 "
       />
       <div className="text-center mb-12">
         <div className="inline-flex items-center gap-2 mb-3">
-          <span className="text-[11px] font-bold uppercase tracking-[0.14em] text-amber-700">
+          <span className="text-[11px] font-bold uppercase tracking-[0.14em] text-logo-black">
             Our achievements
           </span>
         </div>
         <h2 className="font-black text-4xl text-gray-900 leading-tight mb-3">
-          A proud <span className="text-[#ec6b30]">record of success</span>
+          A proud <span className="text-logo-green">record of success</span>
         </h2>
         <p className="text-sm text-gray-500 max-w-md mx-auto leading-relaxed">
           From village beginnings to regional champions — here is what
@@ -127,7 +127,7 @@ export default function AchievementsSection() {
       <div className="grid grid-cols-2 sm:grid-cols-5 gap-3 mb-8">
         {stats.map(({ num, label }) => (
           <div key={label} className="bg-gray-50 rounded-xl p-4 text-center">
-            <p className="font-black text-3xl text-[#ec6b30] leading-none">
+            <p className="font-black text-3xl text-logo-green leading-none">
               {num}
             </p>
             <p className="text-xs text-gray-400 mt-1.5">{label}</p>
@@ -168,7 +168,7 @@ export default function AchievementsSection() {
 
       <div className="border border-gray-100 rounded-2xl overflow-hidden">
         <div className="flex items-center gap-2 px-6 py-4 border-b border-gray-100">
-          <Flag size={18} className="text-[#ec6b30]" />
+          <Flag size={18} className="text-logo-green" />
           <h3 className="font-black text-base text-gray-900">
             Club milestones
           </h3>
@@ -178,12 +178,12 @@ export default function AchievementsSection() {
           {milestones.map(({ year, title, desc, last }, i) => (
             <div key={year}>
               <div className="flex items-start gap-4 px-6 py-5">
-                <span className="font-black text-sm text-[#ec6b30] w-9 shrink-0 pt-0.5">
+                <span className="font-black text-sm text-logo-green w-9 shrink-0 pt-0.5">
                   {year}
                 </span>
 
                 <div className="flex flex-col items-center shrink-0 pt-1.5">
-                  <div className="w-2.5 h-2.5 rounded-full bg-[#ec6b30]/70" />
+                  <div className="w-2.5 h-2.5 rounded-full bg-logo-green/70" />
                   {!last && (
                     <div className="w-px flex-1 bg-gray-100 mt-1 min-h-8" />
                   )}

@@ -21,7 +21,7 @@ export default function Navbar() {
       <nav className="relative w-full bg-logo-black/70 backdrop-blur-md border-b border-white/10 px-6 py-4 md:px-12 flex items-center justify-between min-h-[90px]">
         <div className="flex items-center gap-4">
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="relative w-50 h-14 flex items-center justify-center">
+            <div className="relative w-40 h-20 flex items-center justify-center">
               <Image
                 width={110}
                 height={80}

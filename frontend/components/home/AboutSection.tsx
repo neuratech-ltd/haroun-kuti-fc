@@ -66,21 +66,21 @@ export default function AboutSection() {
       <Image
         src={goalpost}
         alt="Goalpost"
-        className="max-w-[500px] max-h-[400px] absolute h-full md:right-25 -z-1 top-75 md:-top-5 rotate-2 opacity-20 "
+        className="max-w-125 max-h-100 absolute h-full md:right-25 -z-1 top-75 md:-top-5 rotate-2 opacity-20 "
       />
       <div className="max-w-7xl mx-auto  flex md:flex-nowrap flex-wrap items-center justify-center gap-6 px-6 py-12">
         <AboutCarousel />
         <div className="flex flex-wrap min-h-85">
           <div className="flex flex-col justify-center px-10 py-12">
             <div className="flex items-center gap-2 mb-3">
-              <span className="text-[11px] font-semibold uppercase tracking-widest text-blue-950">
+              <span className="text-[11px] font-semibold uppercase tracking-widest text-logo-black">
                 Our story
               </span>
             </div>
 
             <h2 className="font-black text-3xl text-black leading-tight mb-4">
               More than a club —{" "}
-              <span className="text-[#ec6b30]">a community</span>
+              <span className="text-logo-green">a community</span>
             </h2>
 
             <p className="text-sm text-gray-500 leading-relaxed mb-6">

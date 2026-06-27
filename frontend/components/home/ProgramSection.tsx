@@ -76,16 +76,16 @@ export default function ProgramSection() {
       <Image
         src={kicking}
         alt="Kicking a ball"
-        className="md:max-w-[500px] md:max-h-[400px] max-w-[300px] max-h-[350px] absolute h-full md:left-0 -z-1 -top-20 md:-top-30 rotate-2 opacity-20 "
+        className="md:max-w-125 md:max-h-100 max-w-75 max-h-87.5 absolute h-full md:left-0 -z-1 -top-20 md:-top-30 rotate-2 opacity-20 "
       />
       <div className="text-center mb-12">
         <div className="inline-flex items-center gap-2 mb-3">
-          <span className="text-[11px] font-bold uppercase tracking-[0.14em] text-blue-950">
+          <span className="text-[11px] font-bold uppercase tracking-[0.14em] text-logo-black">
             Our programs
           </span>
         </div>
         <h2 className="font-black text-4xl text-gray-900 leading-tight mb-3">
-          Training for <span className="text-[#ec6b30]">every level</span>
+          Training for <span className="text-logo-green">every level</span>
         </h2>
         <p className="text-sm text-gray-500 max-w-md mx-auto leading-relaxed">
           From first kick to competitive squad — we have a structured program

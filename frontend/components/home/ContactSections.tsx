@@ -27,38 +27,99 @@ const hours = [
 const socials = [
   {
     icon: (
-      <svg viewBox="0 0 24 24" className="w-4 h-4" fill="currentColor">
-        <path d="M22.675 0H1.325C.593 0 0 .593 0 1.326v21.348C0 23.407.593 24 1.325 24H12.82v-9.294H9.692V11.41h3.128V8.797c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.794.715-1.794 1.763v2.31h3.587l-.467 3.296h-3.12V24h6.116C23.407 24 24 23.407 24 22.674V1.326C24 .593 23.407 0 22.675 0z" />
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 512 512"
+      >
+        <path d="M0 0h512v512H0z" fill="none" />
+        <path
+          fill="#0866ff"
+          d="M213.8 509.4C92.2 487.7 0 382.7 0 256C0 115.2 115.2 0 256 0s256 115.2 256 256c0 126.7-92.2 231.7-213.8 253.4l-14.1-11.5h-56.3z"
+        />
+        <path
+          fill="#fff"
+          d="m355.8 327.7l11.5-71.7h-67.8v-49.9c0-20.5 7.7-35.8 38.4-35.8h33.3V105c-17.9-2.6-38.4-5.1-56.3-5.1c-58.9 0-99.8 35.8-99.8 99.8V256h-64v71.7h64v180.5c14.1 2.6 28.2 3.8 42.2 3.8c14.1 0 28.2-1.3 42.2-3.8V327.7z"
+        />
       </svg>
     ),
     name: "Facebook",
-    handle: "@greenfieldsfc",
+    handle: "@harounkutifc",
     iconBg: "bg-blue-50 text-blue-800",
     href: "#",
   },
   {
     icon: (
-      <svg viewBox="0 0 24 24" className="w-4 h-4" fill="currentColor">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 512 512"
+      >
+        <path d="M0 0h512v512H0z" fill="none" />
+        <radialGradient
+          id="SVGZnQWPd8Y"
+          cx="-286.878"
+          cy="685.721"
+          r="255.952"
+          gradientTransform="matrix(0 -1.982 1.8439 0 -1128.4 -17.235)"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop offset="0" stopColor="#fd5" />
+          <stop offset=".1" stopColor="#fd5" />
+          <stop offset=".5" stopColor="#ff543e" />
+          <stop offset="1" stopColor="#c837ab" />
+        </radialGradient>
         <path
-          d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.334 3.608 1.31.975.975 1.248 2.242 1.31 3.608.058 1.266.069 1.645.069 4.849s-.012 3.584-.07 4.85c-.062 1.366-.334 2.633-1.31 3.608-.975.975-2.242 1.248-3.608 1.31-1.266.058-1.645.069-4.849.069s-3.584-.012-4.85  
--.07c-1.366-.062-2.633-.334-3.608-1.31-.975-.975-1.248-2.242-1.31-3.608C2.175 15.747 2.163 15.368 2.163 12s.012-3.584.07-4.85c.062-1.366.334-2.633 1.31-3.608C4.518 2.497 5.785 2.225 7.151 2.163 8.417 2.105 8.796 2.163 12 2.163zm0-2.163C8.741 0 8.332.013 7.052.072 5.775.131 4.602.443 3.678 1.367c-.924.924-1.236 2.097-1.295 3.374C2.013 5.668 2 6.077 
-        2 9s-.013 3.332-.072 4.612c-.059 1.277-.371 2.45-1.295 3.374-.924 .924-2 .236-3 .295C5 .013 .013 .013 .013 .013z"
+          fill="url(#SVGZnQWPd8Y)"
+          d="M256.1.1C149.2.1 118 .2 111.9.7C89.9 2.5 76.3 6 61.4 13.4C50 19.1 40.9 25.6 32 34.9C15.8 51.8 5.9 72.5 2.4 97.2C.7 109.2.2 111.6.1 172.8V256c0 106.8.1 138 .6 144.1c1.8 21.3 5.1 34.8 12.2 49.5c13.5 28.1 39.4 49.2 69.9 57.1c10.6 2.7 22.2 4.2 37.2 4.9c6.3.3 71 .5 135.6.5s129.3-.1 135.5-.4c17.3-.8 27.4-2.2 38.5-5c30.7-7.9 56.1-28.7 69.9-57.2c7-14.3 10.5-28.3 12.1-48.5c.3-4.4.5-74.7.5-144.9s-.2-140.4-.5-144.8c-1.6-20.6-5.1-34.4-12.3-49c-5.9-12-12.4-20.9-21.9-30c-16.9-16.2-37.6-26-62.3-29.6C403.1 1 400.8.5 339.6.4h-83.5z"
+        />
+        <radialGradient
+          id="SVGKw2Qhdar"
+          cx="394.107"
+          cy="480.96"
+          r="255.952"
+          gradientTransform="rotate(78.677 1180.95 631.602)scale(.886 3.6529)"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop offset="0" stopColor="#3771c8" />
+          <stop offset=".128" stopColor="#3771c8" />
+          <stop offset="1" stopColor="#60f" stopOpacity="0" />
+        </radialGradient>
+        <path
+          fill="url(#SVGKw2Qhdar)"
+          d="M256.1.1C149.2.1 118 .2 111.9.7C89.9 2.5 76.3 6 61.4 13.4C50 19.1 40.9 25.6 32 34.9C15.8 51.8 5.9 72.5 2.4 97.2C.7 109.2.2 111.6.1 172.8V256c0 106.8.1 138 .6 144.1c1.8 21.3 5.1 34.8 12.2 49.5c13.5 28.1 39.4 49.2 69.9 57.1c10.6 2.7 22.2 4.2 37.2 4.9c6.3.3 71 .5 135.6.5s129.3-.1 135.5-.4c17.3-.8 27.4-2.2 38.5-5c30.7-7.9 56.1-28.7 69.9-57.2c7-14.3 10.5-28.3 12.1-48.5c.3-4.4.5-74.7.5-144.9s-.2-140.4-.5-144.8c-1.6-20.6-5.1-34.4-12.3-49c-5.9-12-12.4-20.9-21.9-30c-16.9-16.2-37.6-26-62.3-29.6C403.1 1 400.8.5 339.6.4h-83.5z"
+        />
+        <path
+          fill="#fff"
+          d="M256 67c-51.3 0-57.8.2-77.9 1.1s-33.9 4.1-45.9 8.8c-12.4 4.8-23 11.3-33.5 21.8s-17 21.1-21.8 33.5c-4.7 12-7.9 25.8-8.8 45.9c-.9 20.2-1.1 26.6-1.1 77.9s.2 57.8 1.1 77.9s4.1 33.9 8.8 45.9c4.8 12.4 11.3 23 21.8 33.5s21 17 33.5 21.8c12 4.7 25.8 7.9 45.9 8.8c20.2.9 26.6 1.1 77.9 1.1s57.8-.2 77.9-1.1s33.9-4.1 45.9-8.8c12.4-4.8 23-11.3 33.5-21.8s17-21.1 21.8-33.5c4.6-12 7.8-25.8 8.8-45.9c.9-20.2 1.1-26.6 1.1-77.9s-.2-57.8-1.1-77.9s-4.1-33.9-8.8-45.9c-4.8-12.4-11.3-23-21.8-33.5s-21-17-33.5-21.8c-12-4.7-25.8-7.9-45.9-8.8c-20.2-.9-26.6-1.1-77.9-1.1m-17 34.1h17c50.5 0 56.4.2 76.4 1.1c18.4.8 28.4 3.9 35.1 6.5c8.8 3.4 15.1 7.5 21.7 14.1s10.7 12.9 14.1 21.7c2.6 6.7 5.7 16.7 6.5 35.1c.9 19.9 1.1 25.9 1.1 76.4s-.2 56.4-1.1 76.4c-.8 18.4-3.9 28.4-6.5 35.1c-3.4 8.8-7.5 15.1-14.1 21.7s-12.9 10.7-21.7 14.1c-6.7 2.6-16.7 5.7-35.1 6.5c-19.9.9-25.9 1.1-76.4 1.1s-56.5-.2-76.4-1.1c-18.4-.9-28.4-3.9-35.1-6.5c-8.8-3.4-15.1-7.5-21.7-14.1s-10.7-12.9-14.1-21.7c-2.6-6.7-5.7-16.7-6.5-35.1c-.9-19.9-1.1-25.9-1.1-76.4s.2-56.4 1.1-76.4c.8-18.4 3.9-28.4 6.5-35.1c3.4-8.8 7.5-15.1 14.1-21.7s12.9-10.7 21.7-14.1c6.7-2.6 16.7-5.7 35.1-6.5c17.4-.9 24.2-1.1 59.4-1.1m117.9 31.4c-12.5 0-22.7 10.1-22.7 22.7c0 12.5 10.2 22.7 22.7 22.7s22.7-10.2 22.7-22.7s-10.2-22.8-22.7-22.7M256 159c-53.6 0-97.1 43.5-97.1 97.1s43.5 97 97.1 97s97-43.4 97-97s-43.4-97.1-97-97.1m0 34c34.8 0 63 28.2 63 63s-28.2 63-63 63s-63-28.2-63-63s28.2-63 63-63"
         />
       </svg>
     ),
     name: "Instagram",
-    handle: "@greenfields_fc",
+    handle: "@harounkutifc",
     iconBg: "bg-pink-50 text-pink-800",
     href: "#",
   },
   {
     icon: (
-      <svg viewBox="0 0 24 24" className="w-4 h-4" fill="currentColor">
-        <path d="M19.615 3.174c-3.604-.246-11.638-.246-15.233 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.595.245 11.629.245 15.233 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10 13V8l5.777 7H9z" />
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 512 512"
+      >
+        <path d="M0 0h512v512H0z" fill="none" />
+        <path
+          fill="red"
+          d="M501.3 132.8c-5.9-22-23.2-39.4-45.3-45.3c-39.9-10.7-200-10.7-200-10.7s-160.1 0-200 10.7c-22 5.9-39.4 23.2-45.3 45.3C0 172.7 0 256 0 256s0 83.3 10.7 123.2c5.9 22 23.2 39.4 45.3 45.3c39.9 10.7 200 10.7 200 10.7s160.1 0 200-10.7c22-5.9 39.4-23.2 45.3-45.3C512 339.3 512 256 512 256s0-83.3-10.7-123.2"
+        />
+        <path fill="#fff" d="m204.8 332.8l133-76.8l-133-76.8z" />
       </svg>
     ),
     name: "YouTube",
-    handle: "Greenfields FC Official",
+    handle: "Harounkuti FC Official",
     iconBg: "bg-red-50 text-red-800",
     href: "#",
   },
@@ -74,12 +135,12 @@ export default function ContactSection() {
       />
       <div className="text-center mb-12">
         <div className="inline-flex items-center gap-2 mb-3">
-          <span className="text-[11px] font-bold uppercase tracking-[0.14em] text-blue-700">
+          <span className="text-[11px] font-bold uppercase tracking-[0.14em] text-logo-black">
             Get in touch
           </span>
         </div>
         <h2 className="font-black text-4xl text-gray-900 leading-tight mb-3">
-          We'd love to <span className="text-blue-700">hear from you</span>
+          We'd love to <span className="text-logo-green">hear from you</span>
         </h2>
         <p className="text-sm text-gray-500 max-w-md mx-auto leading-relaxed">
           Drop by the ground, give us a call, or reach out on social — we're
@@ -89,7 +150,7 @@ export default function ContactSection() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
         <div className="bg-white border border-gray-100 rounded-2xl p-6">
-          <div className="w-11 h-11 rounded-xl bg-blue-50 text-blue-800 flex items-center justify-center mb-4">
+          <div className="w-11 h-11 rounded-xl bg-blue-50 text-logo-green flex items-center justify-center mb-4">
             <Phone size={20} />
           </div>
           <p className="text-[11px] font-bold uppercase tracking-widest text-gray-400 mb-1.5">
@@ -103,14 +164,14 @@ export default function ContactSection() {
           </p>
           <a
             href="tel:+8801700000000"
-            className="inline-flex items-center gap-1.5 mt-3 text-xs font-semibold text-blue-700 hover:text-blue-900"
+            className="inline-flex items-center gap-1.5 mt-3 text-xs font-semibold text-logo-green hover:text-blue-900"
           >
             <PhoneOutgoing size={13} /> Call now
           </a>
         </div>
 
         <div className="bg-white border border-gray-100 rounded-2xl p-6">
-          <div className="w-11 h-11 rounded-xl bg-blue-50 text-blue-800 flex items-center justify-center mb-4">
+          <div className="w-11 h-11 rounded-xl bg-blue-50 text-logo-green flex items-center justify-center mb-4">
             <Mail size={20} />
           </div>
           <p className="text-[11px] font-bold uppercase tracking-widest text-gray-400 mb-1.5">
@@ -124,14 +185,14 @@ export default function ContactSection() {
           </p>
           <a
             href="mailto:info@greenfieldsfc.com"
-            className="inline-flex items-center gap-1.5 mt-3 text-xs font-semibold text-blue-700 hover:text-blue-900"
+            className="inline-flex items-center gap-1.5 mt-3 text-xs font-semibold text-logo-green hover:text-blue-900"
           >
             <Send size={13} /> Send email
           </a>
         </div>
 
         <div className="bg-white border border-gray-100 rounded-2xl p-6">
-          <div className="w-11 h-11 rounded-xl bg-green-50 text-green-800 flex items-center justify-center mb-4">
+          <div className="w-11 h-11 rounded-xl bg-green-50 text-logo-green flex items-center justify-center mb-4">
             <MapPin size={20} />
           </div>
           <p className="text-[11px] font-bold uppercase tracking-widest text-gray-400 mb-1.5">
@@ -145,7 +206,7 @@ export default function ContactSection() {
           </p>
           <a
             href="#"
-            className="inline-flex items-center gap-1.5 mt-3 text-xs font-semibold text-green-700 hover:text-green-900"
+            className="inline-flex items-center gap-1.5 mt-3 text-xs font-semibold text-logo-green hover:text-blue-900"
           >
             <ExternalLink size={13} /> Get directions
           </a>
@@ -297,7 +358,7 @@ export default function ContactSection() {
             </a>
           ))}
 
-          <a
+          {/* <a
             href="#"
             className="flex items-center gap-3 px-3.5 py-2.5 border border-gray-100 hover:border-gray-200 rounded-xl transition-colors"
           >
@@ -314,7 +375,7 @@ export default function ContactSection() {
               <p className="text-xs text-gray-400">Join the club community</p>
             </div>
             <ArrowRight size={15} className="text-gray-300 shrink-0" />
-          </a>
+          </a> */}
         </div>
       </div>
     </section>

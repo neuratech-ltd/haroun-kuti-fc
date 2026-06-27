@@ -65,7 +65,7 @@ const ProgramCTA = () => {
           Come down for a free trial session — no commitment needed.
         </p>
       </div>
-      <Button className="relative z-10 bg-blue-950 hover:bg-[#ec6b30] text-white font-bold text-sm px-6 h-11 shrink-0">
+      <Button className="relative z-10 bg-blue-950 hover:bg-logo-green text-white font-bold text-sm px-6 h-11 shrink-0">
         <UserPlus size={16} className="mr-2" />
         Book a free trial
       </Button>
