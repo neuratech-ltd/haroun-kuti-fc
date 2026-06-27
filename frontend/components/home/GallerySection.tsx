@@ -12,6 +12,8 @@ import four from "@/assets/images/4.jpg";
 import five from "@/assets/images/5.jpg";
 import six from "@/assets/images/6.jpg";
 import seven from "@/assets/images/7.jpg";
+import nine from "@/assets/images/9.jpeg";
+import ten from "@/assets/images/10.jpeg";
 
 const filters = [
   { label: "All photos", value: "all" },
@@ -38,6 +40,7 @@ const photos = [
     caption: "District Cup final victory",
     date: "November 2024",
     cat: "match",
+    tall: true,
   },
   {
     id: 3,
@@ -54,7 +57,7 @@ const photos = [
     caption: "Tournament champions — full squad celebration",
     date: "August 2023",
     cat: "tournament",
-    wide: true,
+    tall: true,
   },
   {
     id: 5,
@@ -79,6 +82,26 @@ const photos = [
     caption: "Post-match celebration",
     date: "December 2022",
     cat: "match",
+    tall: true,
+  },
+
+  {
+    id: 9,
+    src: nine.src,
+    alt: "Post-match celebration after Knockout Cup 2022",
+    caption: "Post-match celebration",
+    date: "December 2022",
+    cat: "match",
+    tall: true,
+  },
+  {
+    id: 10,
+    src: ten.src,
+    alt: "Post-match celebration after Knockout Cup 2022",
+    caption: "Post-match celebration",
+    date: "December 2022",
+    cat: "match",
+    tall: true,
   },
 ];
 
@@ -100,7 +123,7 @@ export default function GallerySection() {
         </h2>
         <p className="text-sm text-gray-500 max-w-sm mx-auto leading-relaxed">
           Group photos, match days, training sessions and tournament memories
-          from the Greenfields family.
+          from the HarounKuti family.
         </p>
       </div>
 
@@ -171,7 +194,7 @@ export default function GallerySection() {
           <span className="font-bold text-gray-700">{visible.length}</span> of{" "}
           <span className="font-bold text-gray-700">48</span> photos
         </p>
-        <Button className="bg-logo-green hover:bg-logo-green/80 text-white text-sm px-5 h-10 gap-2">
+        <Button className="bg-logo-green hover:bg-logo-green/80 text-white text-sm  gap-2">
           <Images size={15} />
           View full gallery
         </Button>

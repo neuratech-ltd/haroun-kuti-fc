@@ -4,7 +4,7 @@ import { UserPlus } from "lucide-react";
 
 const ProgramCTA = () => {
   return (
-    <div className="relative bg-black rounded-2xl px-8 py-7 flex flex-wrap items-center justify-between gap-5 overflow-hidden">
+    <div className="relative h-40 bg-logo-green rounded-2xl px-8 py-7 flex flex-wrap items-center justify-between gap-5 overflow-hidden">
       <svg
         className="absolute inset-0 w-full h-full opacity-[0.2] pointer-events-none"
         viewBox="0 0 600 140"
@@ -58,14 +58,14 @@ const ProgramCTA = () => {
       </svg>
 
       <div className="relative z-10">
-        <p className="font-black text-xl text-white mb-1">
+        <p className="font-black sm:text-xl text-white mb-1">
           Not sure which program fits?
         </p>
         <p className="text-sm text-white/80 ">
           Come down for a free trial session — no commitment needed.
         </p>
       </div>
-      <Button className="relative z-10 bg-blue-950 hover:bg-logo-green text-white font-bold text-sm px-6 h-11 shrink-0">
+      <Button className="relative z-10 bg-blue-950 hover:bg-logo-green text-white font-bold text-sm shrink-0">
         <UserPlus size={16} className="mr-2" />
         Book a free trial
       </Button>

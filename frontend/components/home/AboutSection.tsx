@@ -85,7 +85,7 @@ export default function AboutSection() {
 
             <p className="text-sm text-gray-500 leading-relaxed mb-6">
               Founded in 2010 by a group of football-loving neighbours in
-              Greenfields Village, our club started with just one team and a
+              HarounKuti Village, our club started with just one team and a
               borrowed pitch. Today we run full training programs for students
               from age 6 upwards, with certified coaches who care as much about
               character as they do about skill.
@@ -93,7 +93,7 @@ export default function AboutSection() {
               <br />
               We travel to tournaments across the region, but our roots stay
               firmly in this village. Every player who trains with us becomes
-              part of the Greenfields family.
+              part of the HarounKuti family.
             </p>
 
             <div className="grid grid-cols-2 gap-2.5">

@@ -178,13 +178,13 @@ export default function ContactSection() {
             Email
           </p>
           <p className="font-black text-lg text-gray-900 mb-1">
-            info@greenfieldsfc.com
+            info@HarounKutifc.com
           </p>
           <p className="text-xs text-gray-400">
             We reply within 24 hours on working days
           </p>
           <a
-            href="mailto:info@greenfieldsfc.com"
+            href="mailto:info@HarounKutifc.com"
             className="inline-flex items-center gap-1.5 mt-3 text-xs font-semibold text-logo-green hover:text-blue-900"
           >
             <Send size={13} /> Send email
@@ -199,10 +199,10 @@ export default function ContactSection() {
             Ground address
           </p>
           <p className="font-black text-lg text-gray-900 mb-1">
-            Greenfields Main Pitch
+            HarounKuti Main Pitch
           </p>
           <p className="text-xs text-gray-400">
-            Greenfields Village, Dhaka Division, Bangladesh
+            HarounKuti Village, Dhaka Division, Bangladesh
           </p>
           <a
             href="#"
@@ -314,10 +314,10 @@ export default function ContactSection() {
           <div className="flex items-center justify-between px-5 py-4 border-t border-gray-100">
             <div>
               <p className="text-sm font-semibold text-gray-900">
-                Greenfields Main Pitch
+                HarounKuti Main Pitch
               </p>
               <p className="text-xs text-gray-400 mt-0.5">
-                Greenfields Village, Dhaka
+                HarounKuti Village, Dhaka
               </p>
             </div>
             <Button

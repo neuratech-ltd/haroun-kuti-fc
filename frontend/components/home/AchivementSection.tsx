@@ -70,11 +70,11 @@ const milestones = [
   {
     year: "2018",
     title: "First player signed to a professional club",
-    desc: "Academy graduate Arafat Hossain became the first Greenfields FC player to sign a professional contract.",
+    desc: "Academy graduate Arafat Hossain became the first HarounKuti FC player to sign a professional contract.",
   },
   {
     year: "2010",
-    title: "Club founded in Greenfields Village",
+    title: "Club founded in HarounKuti Village",
     desc: "A group of neighbours started the club with one team, a shared pitch, and a dream to build something lasting.",
     last: true,
   },
