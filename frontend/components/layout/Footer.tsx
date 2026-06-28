@@ -46,7 +46,7 @@ export default function Footer() {
         backgroundImage: `url(${footerBackground.src})`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
-        backgroundColor: "rgba(0, 0, 0, 0.7)",
+        backgroundColor: "rgba(0, 0, 0, 0.5)",
         backgroundBlendMode: "overlay",
       }}
     >
