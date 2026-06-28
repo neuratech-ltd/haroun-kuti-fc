@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Images } from "lucide-react";
 import one from "@/assets/images/1.jpg";
@@ -74,6 +73,7 @@ const photos = [
     caption: "Post-match celebration",
     date: "December 2022",
     cat: "match",
+    wide: false,
   },
   {
     id: 7,
@@ -158,7 +158,7 @@ export default function GallerySection() {
               <div
                 className={`relative w-full ${
                   photo.tall
-                    ? "h-full min-h-[290px]"
+                    ? "h-full min-h-72.5"
                     : photo.wide
                       ? "h-36"
                       : "h-36"
