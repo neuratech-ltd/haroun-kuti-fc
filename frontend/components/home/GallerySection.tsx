@@ -111,7 +111,10 @@ export default function GallerySection() {
   const visible = photos.filter((p) => active === "all" || p.cat === active);
 
   return (
-    <section className="py-14 px-6 max-w-7xl mx-auto relative z-10">
+    <section
+      id="gallery"
+      className="pt-40 px-6 max-w-7xl mx-auto relative z-10"
+    >
       <div className="text-center mb-10">
         <div className="inline-flex items-center gap-2 mb-3">
           <span className="text-[11px] font-bold uppercase tracking-[0.14em] text-logo-black">

@@ -127,11 +127,14 @@ const socials = [
 
 export default function ContactSection() {
   return (
-    <section className="py-14 px-6 max-w-7xl mx-auto relative z-10">
+    <section
+      id="contact"
+      className="pt-35 px-6 max-w-7xl mx-auto relative z-10 mb-20"
+    >
       <Image
         src={femalekicking}
         alt="Female player kicking a ball"
-        className="md:max-w-125 md:max-h-100 max-w-75 max-h-87.5 absolute h-full md:left-0 -z-1 -top-20 md:-top-30 rotate-2 opacity-20 "
+        className="md:max-w-125 md:max-h-100 max-w-75 max-h-87.5 absolute h-full md:left-0 -z-1 -top-20 md:-top-12 rotate-2 opacity-20 "
       />
       <div className="text-center mb-12">
         <div className="inline-flex items-center gap-2 mb-3">

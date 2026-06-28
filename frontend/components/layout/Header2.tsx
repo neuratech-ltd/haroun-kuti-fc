@@ -10,10 +10,12 @@ export default function Navbar() {
   const [activeItem, setActiveItem] = useState("Home");
 
   const navItems = [
-    { name: "Home", href: "/" },
-    { name: "About", href: "/about" },
-    { name: "Programs", href: "/programs" },
-    { name: "Contact", href: "/contact" },
+    { name: "Home", href: "#home" },
+    { name: "About", href: "#about" },
+    { name: "Programs", href: "#programs" },
+    { name: "Gallery", href: "#gallery" },
+    { name: "Achievements", href: "#achievements" },
+    { name: "Contact", href: "#contact" },
   ];
 
   return (

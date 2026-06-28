@@ -62,7 +62,7 @@ const coaches = [
 
 export default function AboutSection() {
   return (
-    <section className="relative overflow-hidden mt-20 z-10">
+    <section id="about" className="relative overflow-hidden pt-15 z-10">
       <Image
         src={goalpost}
         alt="Goalpost"

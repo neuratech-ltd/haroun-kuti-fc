@@ -5,6 +5,7 @@ import HeroImage from "@/assets/images/banner.webp";
 export default function HeroSection() {
   return (
     <section
+      id="home"
       className="relative pt-10 bg-black/80 flex items-center overflow-hidden h-100 md:h-125 lg:h-190"
       style={{
         backgroundImage: `url(${HeroImage.src})`,
