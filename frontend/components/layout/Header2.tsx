@@ -4,6 +4,8 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import logo from "@/assets/logo/HKM-white.png";
+import { Button } from "../ui/button";
+import { PhoneCallIcon } from "lucide-react";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,8 +21,8 @@ export default function Navbar() {
   ];
 
   return (
-    <header className="fixed top-0 left-0 w-full z-50">
-      <nav className="relative w-full bg-logo-black/70 backdrop-blur-md border-b border-white/10 px-6 py-4 md:px-12 flex items-center justify-between min-h-[90px]">
+    <header className="sticky top-0 left-0 w-full z-50">
+      <nav className="relative w-full bg-linear-to-l from-logo-green to-blue-950 border-b border-white/10 px-6 py-4 md:px-12 flex items-center justify-between min-h-22.5">
         <div className="flex items-center gap-4">
           <Link href="/" className="flex items-center gap-3 group">
             <div className="relative w-40 h-20 flex items-center justify-center">
@@ -41,7 +43,7 @@ export default function Navbar() {
               key={item.name}
               href={item.href}
               onClick={() => setActiveItem(item.name)}
-              className={`rounded-full border px-6 py-2 text-[15px] font-medium tracking-wide transition-all duration-300 backdrop-blur-sm 
+              className={`rounded-full border px-2 py-0 xl:px-4 xl:py-1 2xl:px-6 2xl:py-2 text-[15px] font-medium tracking-wide transition-all duration-300 backdrop-blur-sm 
                 ${
                   activeItem === item.name
                     ? "border-white bg-white/20 text-white shadow-lg"
@@ -53,27 +55,14 @@ export default function Navbar() {
           ))}
         </div>
 
-        <div className="hidden md:flex items-center gap-2">
-          <a
-            href="https://facebook.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-10 h-10 rounded-full border border-white/25 flex items-center justify-center text-white hover:bg-[#1152D1] hover:border-white/50 transition-all"
+        <div className="hidden lg:flex items-center">
+          <Button
+            className="border-white  text-white hover:bg-logo-black hover:text-white hover:border-white bg-transparent"
+            variant="outline"
           >
-            <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
-              <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
-            </svg>
-          </a>
-          <a
-            href="https://youtube.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-10 h-10 rounded-full border border-white/25 flex items-center justify-center text-white hover:bg-[#AE3590] hover:border-white/50 transition-all"
-          >
-            <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
-              <path d="M23.498 6.163s-.233-1.64-.946-2.36c-.905-.95-1.916-.955-2.38-.1c-3.324-.24-8.31-.24-11.635 0-.464-.545-1.475-.55-2.38.1-.713.72-.946 2.36-.946 2.36s-.236 1.914-.236 3.827v1.794c0 1.913.236 3.827.236 3.827s.233 1.64.946 2.36c.905.95 2.08.91 2.61.1.98.093 3.334.24 11.64.24.464-.55 1.475-.545 2.38-.1.713-.72.946-2.36.946-2.36s.236-1.914.236-3.827v-1.794c0-1.913-.236-3.827-.236-3.827zm-14.16 8.27v-6.8l6.804 3.4-6.804 3.4z" />
-            </svg>
-          </a>
+            <PhoneCallIcon />
+            <span className="text-xs xl:text-md">+880171234567</span>
+          </Button>
         </div>
 
         <div className="lg:hidden flex items-center">
